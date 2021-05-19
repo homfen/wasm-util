@@ -19,5 +19,5 @@ html:
 js:
 
 ```
-import {rgb2yuv, yuv2rgb} from '@alife/wasm-util';
+import {rgb2yuv, yuv2rgb} from 'wasm-util';
 ```
