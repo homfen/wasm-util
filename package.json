@@ -1,0 +1,35 @@
+{
+  "name": "wasm-util",
+  "version": "0.0.1",
+  "description": "WebAssembly Util",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "webpack serve --open --port 5001",
+    "build": "webpack --config webpack.build.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/homfen/wasm-util"
+  },
+  "keywords": ["WebAssembly"],
+  "author": "homfen",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.2.1",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^5.26.3",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webworkify-webpack": "^2.1.5"
+  },
+  "dependencies": {
+    "m3u8-parser": "^4.6.0"
+  }
+}

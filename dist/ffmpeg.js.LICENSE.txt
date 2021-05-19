@@ -1,0 +1,1 @@
+/*! @name m3u8-parser @version 4.6.0 @license Apache-2.0 */
